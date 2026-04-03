@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Berita Terupdate 24 Jam | Info Terkini</title>
+    <meta name="description" content="Berita terbaru, teknologi, hiburan, olahraga, dan lifestyle terkini 24 jam">
+    
+    <!-- ADS-TERRA CODES - GANTI DENGAN CODE ANDA -->
+    <script type="text/javascript">
+        atOptions = {
+            'key' : 'MASUKKAN_ADSTERRA_KEY_ANDA',
+            'format' : 'iframe',
+            'height' : 250,
+            'width' : 300,
+            'params' : {}
+        };
+        document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitablecreativeformat.com/MASUKKAN_ADSTERRA_KEY_ANDA/invoke.js"></scr' + 'ipt>');
+    </script>
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Header */
+        header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem 0; }
+        .header-content { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+        .logo { font-size: 1.8rem; font-weight: bold; }
+        nav ul { display: flex; list-style: none; gap: 2rem; }
+        nav a { color: white; text-decoration: none; transition: opacity 0.3s; }
+        nav a:hover { opacity: 0.8; }
+        
+        /* Hero Section */
+        .hero { background: #f8f9fa; padding: 3rem 0; text-align: center; }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 1rem; color: #2c3e50; }
+        .hero p { font-size: 1.2rem; color: #666; max-width: 600px; margin: 0 auto; }
+        
+        /* Ad Slot 1 - Leaderboard */
+        .ad-leaderboard { background: #f0f0f0; padding: 20px; margin: 2rem 0; text-align: center; border-radius: 8px; }
+        
+        /* News Grid */
+        .news-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin: 3rem 0; }
+        .news-card { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: transform 0.3s; }
+        .news-card:hover { transform: translateY(-5px); }
+        .news-image { width: 100%; height: 200px; background: linear-gradient(45deg, #ff6b6b, #4ecdc4); display: flex; align-items: center; justify-content: center; color: white; font-size: 1.2rem; }
+        .news-content { padding: 1.5rem; }
+        .news-date { color: #888; font-size: 0.9rem; margin-bottom: 0.5rem; }
+        .news-title { font-size: 1.3rem; margin-bottom: 0.8rem; line-height: 1.4; }
+        .news-title a { color: #2c3e50; text-decoration: none; }
+        .news-title a:hover { color: #667eea; }
+        .news-excerpt { color: #666; margin-bottom: 1rem; }
+        .read-more { color: #667eea; text-decoration: none; font-weight: 500; }
+        
+        /* Ad Slot 2 - Sidebar */
+        .ad-sidebar { grid-column: span 1; background: #f8f9fa; padding: 20px; border-radius: 8px; text-align: center; margin: 1rem 0; }
+        
+        /* Footer */
+        footer { background: #2c3e50; color: white; text-align: center; padding: 2rem 0; margin-top: 4rem; }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-content { flex-direction: column; gap: 1rem; text-align: center; }
+            nav ul { flex-direction: column; gap: 1rem; }
+            .hero h1 { font-size: 2rem; }
+            .news-grid { grid-template-columns: 1fr; }
+        }
+        
+        /* Ad Slots */
+        .ad-slot { margin: 2rem 0; text-align: center; min-height: 250px; }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">📰 News24</div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#teknologi">Teknologi</a></li>
+                        <li><a href="#hiburan">Hiburan</a></li>
+                        <li><a href="#olahraga">Olahraga</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+        <div class="container">
+            <h1>Berita Terupdate 24 Jam</h1>
+            <p>Dapatkan informasi terkini dari berbagai kategori berita terpercaya setiap hari</p>
+        </div>
+    </section>
+
+    <!-- AD LEADERBOARD -->
+    <div class="container">
+        <div class="ad-slot ad-leaderboard">
+            <!-- ADS-TERRA LEADERBOARD 728x90 -->
+            <script type="text/javascript">
+                atOptions = {
+                    'key' : 'GANTI_DENGAN_CODE_LEADERBOARD_ANDA',
+                    'format' : 'iframe',
+                    'height' : 90,
+                    'width' : 728,
+                    'params' : {}
+                };
+                document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitablecreativeformat.com/GANTI_DENGAN_CODE_LEADERBOARD_ANDA/invoke.js"></scr' + 'ipt>');
+            </script>
+        </div>
+    </div>
+
+    <!-- NEWS GRID -->
+    <section class="container">
+        <div class="news-grid">
+            <!-- News Card 1 -->
+            <article class="news-card">
+                <div class="news-image">🚀 Teknologi</div>
+                <div class="news-content">
+                    <div class="news-date">2 Jam yang lalu</div>
+                    <h3 class="news-title"><a href="#">AI Baru Google Mengubah Cara Kerja Developer Selamanya</a></h3>
+                    <p class="news-excerpt">Google meluncurkan AI terbaru yang mampu menulis kode 10x lebih cepat dari developer manusia...</p>
+                    <a href="#" class="read-more">Baca Selengkapnya →</a>
+                </div>
+            </article>
+
+            <!-- AD SIDEBAR -->
+            <div class="ad-sidebar ad-slot">
+                <!-- ADS-TERRA 300x250 -->
+                <script type="text/javascript">
+                    atOptions = {
+                        'key' : 'GANTI_DENGAN_CODE_300x250_ANDA',
+                        'format' : 'iframe',
+                        'height' : 250,
+                        'width' : 300,
+                        'params' : {}
+                    };
+                    document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitablecreativeformat.com/GANTI_DENGAN_CODE_300x250_ANDA/invoke.js"></scr' + 'ipt>');
+                </script>
+            </div>
+
+            <!-- News Card 2 -->
+            <article class="news-card">
+                <div class="news-image">🎬 Hiburan</div>
+                <div class="news-content">
+                    <div class="news-date">4 Jam yang lalu</div>
+                    <h3 class="news-title"><a href="#">Film Indonesia Terbaru Pecahkan Rekor Box Office</a></h3>
+                    <p class="news-excerpt">Film drama romantis produksi lokal ini berhasil menarik 2 juta penonton dalam 3 hari...</p>
+                    <a href="#" class="read-more">Baca Selengkapnya →</a>
+                </div>
+            </article>
+
+            <!-- News Card 3 -->
+            <article class="news-card">
+                <div class="news-image">⚽ Olahraga</div>
+                <div class="news-content">
+                    <div class="news-date">1 Jam yang lalu</div>
+                    <h3 class="news-title"><a href="#">Timnas Indonesia Juara Piala AFF 2024!</a></h3>
+                    <p class="news-excerpt">Garuda muda mencetak sejarah dengan mengalahkan Vietnam 3-1 di final...</p>
+                    <a href="#" class="read-more">Baca Selengkapnya →</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- AD STICKY BOTTOM -->
+    <div class="ad-slot ad-leaderboard" style="position: sticky; bottom: 0; z-index: 100;">
+        <!-- ADS-TERRA MOBILE 320x50 -->
+        <script type="text/javascript">
+            atOptions = {
+                'key' : 'GANTI_DENGAN_CODE_MOBILE_ANDA',
+                'format' : 'iframe',
+                'height' : 50,
+                'width' : 320,
+                'params' : {}
+            };
+            document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://www.profitablecreativeformat.com/GANTI_DENGAN_CODE_MOBILE_ANDA/invoke.js"></scr' + 'ipt>');
+        </script>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 News24. Semua hak dilindungi. | <a href="#" style="color: #ccc;">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <!-- ANALYTICS (OPTIONAL) -->
+    <!-- Google Analytics code di sini -->
+</body>
+</html>
